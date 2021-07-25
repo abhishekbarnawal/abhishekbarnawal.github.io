@@ -323,7 +323,8 @@ color:var(--first-color-lighten);
 }
 
 .home__img img{
-  width: 240px;
+  width: 200px;
+  border-radius: 50%;
 }
 
 .home__social{
@@ -745,5 +746,10 @@ color:var(--first-color-lighten);
 
 @media screen and (min-width:1024px){
   .bd-container{
-    margin-left: auto;
-  }}
+    margin-left: 8rem;
+
+  }
+  .nav{
+    height: 3.5rem;
+  }
+}
