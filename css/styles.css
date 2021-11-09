@@ -640,6 +640,7 @@ color:var(--first-color-lighten);
 @media screen and (min-width:576px){
   .home__img img{
     width: 330px;
+    height: 330px;
   }
   
   .about__container, .services__container, .portfolio__container{
