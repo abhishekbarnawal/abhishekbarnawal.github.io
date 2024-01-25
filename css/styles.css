@@ -749,7 +749,7 @@ color:var(--first-color-lighten);
 
 @media screen and (min-width:1024px){
   .bd-container{
-    margin-left: 8rem;
+    margin: 0 auto;
 
   }
   .nav{
