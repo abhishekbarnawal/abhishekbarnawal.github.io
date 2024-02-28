@@ -1,278 +1,382 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <!-- ===== SWIPER CSS ===== -->
-        <!-- <link rel="stylesheet" href=""> -->
-        
-        <!-- ===== BOX ICONS ===== -->
-        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <!-- ===== SWIPER CSS ===== -->
+    <!-- <link rel="stylesheet" href=""> -->
 
-        <!-- ===== CSS ===== -->
-        <link rel="stylesheet" href="css/styles.css">
+    <!-- ===== BOX ICONS ===== -->
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
 
-        <title>Abhishek Barnawal</title>
-    </head>
-    <body>
-        <!--===== SCROLL TOP =====-->
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="css/styles.css" />
 
-        <button onclick="topFunction()" id="myBtn" title="Go to top"> <i class='bx bx-chevron-up scrolltop__icon '></i></button> 
+    <title>Abhishek Barnawal</title>
+  </head>
+  <body>
+    <!--===== SCROLL TOP =====-->
 
-        <!--===== HEADER =====-->
-        <header class="l-header" id="header">
-            <nav class="nav bd-container">
-            <a href="#" class="nav__logo">Abhishek</a>
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
-                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-                        <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
-                        <li class="nav__item"><a href="#portfolio" class="nav__link">Portfolio</a></li>
-                        <li class="nav__item"><a href="#contact" class="nav__link">Contactme</a></li>
-                    </ul>
-                </div>
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class='bx bx-menu-alt-right' ></i>
-                </div>
-            </nav>
-        </header>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+      <i class="bx bx-chevron-up scrolltop__icon"></i>
+    </button>
 
-        <main class="l-main">
-            <!--===== HOME =====-->
-            <section class="home" id="home">
-                <div class="home__container bd-container bd-grid">
-                        <div class="home__data">
-                            <span class="home__greeting">Hello, I am</span>
-                            <h1 class="home__name">Abhishek Barnawal</h1>
-                            <span class="home__profession">UI/UX Developer</span>
-                        </div>
+    <!--===== HEADER =====-->
+    <header class="l-header" id="header">
+      <nav class="nav bd-container">
+        <a href="#" class="nav__logo">Abhishek</a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#services" class="nav__link">Services</a>
+            </li>
+            <li class="nav__item">
+              <a href="#portfolio" class="nav__link">Portfolio</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contactme</a>
+            </li>
+          </ul>
+        </div>
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu-alt-right"></i>
+        </div>
+      </nav>
+    </header>
 
-                        <div class="home__social">
-                            <a href="https://dribbble.com/abhishek_barnawal" class="home__social-icon"><i class='bx bxl-dribbble'></i></a>
-                            <a href="https://www.behance.net/abhishekbarnwal" class="home__social-icon"><i class='bx bxl-behance' ></i></a>
-                            <a href="https://www.linkedin.com/in/abhishek-barnawal/" class="home__social-icon"><i class='bx bxl-linkedin-square' ></i></a>
-                        </div>
+    <div class="l-main">
+      <!--===== HOME =====-->
+      <section class="home" id="home">
+        <div class="home__container bd-container bd-grid">
+          <div class="home__data">
+            <span class="home__greeting">Hello, I am</span>
+            <h1 class="home__name">Abhishek Barnawal</h1>
+            <span class="home__profession">UI/UX Developer</span>
+          </div>
 
-                        <div class="home__img">
-                           <img src="img/profile-pic.jpg" alt="home" style="object-fit: cover; object-position: top;">
-                        </div>
-                </div>
-            </section>
-            
-            <!--===== ABOUT =====-->
-            <section class="about section bd-container" id="about">
-                <span class="section-subtitle">My About</span>
-                <h2 class="section-title">About Me</h2>
+          <div class="home__social">
+            <a
+              href="https://dribbble.com/abhishek_barnawal"
+              class="home__social-icon"
+              ><i class="bx bxl-dribbble"></i
+            ></a>
+            <a
+              href="https://www.behance.net/abhishekbarnwal"
+              class="home__social-icon"
+              ><i class="bx bxl-behance"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/abhishek-barnawal/"
+              class="home__social-icon"
+              ><i class="bx bxl-linkedin-square"></i
+            ></a>
+          </div>
 
-                <div class="about__container bd-container bd-grid">
-                    <div class="about__data bd-grid">
-                        <p class="about__description"><span>Hello, I am <br></span>Abhishek Barnawal working as a Lead UI/UX Developer for over 3.5 years. <br> I am currently working in AITC. <br> I have hands on experience with HTML, CSS3, Jquery, Bootstrap, ReactJS, Javascript(ES6). <br> Please download my CV for more reference.</p>
-                        
-                        <!-- <div>
+          <div class="home__img">
+            <img
+              src="img/profile-pic.jpg"
+              alt="home"
+              style="object-fit: cover; object-position: top"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!--===== ABOUT =====-->
+      <section class="about section bd-container" id="about">
+        <span class="section-subtitle">My About</span>
+        <h2 class="section-title">About Me</h2>
+
+        <div class="about__container bd-container bd-grid">
+          <div class="about__data bd-grid">
+            <p class="about__description">
+              <span>Hello, I am <br /></span>Abhishek Barnawal working as a Lead
+              UI/UX Developer for over 3.5 years. <br />
+              I am currently working in AITC. <br />
+              I have hands on experience with HTML, CSS3, Jquery, Bootstrap,
+              ReactJS, Javascript(ES6). <br />
+              Please download my CV for more reference.
+            </p>
+
+            <!-- <div>
                             <span class="about__number">2</span>
                             <span class="about__achievement">Years of Experience</span>
                         </div> -->
-                    </div>
+          </div>
 
-                    <img src="img/profile-pic.jpg" alt="" class="about__img">
-                </div>
-    
-            </section>
+          <img src="img/profile-pic.jpg" alt="" class="about__img" />
+        </div>
+      </section>
 
-            <!--===== QUALIFICATION =====-->
-            
+      <!--===== QUALIFICATION =====-->
 
-            <!--===== SERVICES =====-->
-            <section class="services section bd-container" id="services">
-                <span class="section-subtitile">What I offer</span>
-                <h2 class="section-title">Services</h2>
-                <div class="services__container bd-grid">
-                    <div class="services__data">
-                        <i class='bx bx-palette services__icon'></i>
-                        <h3 class="services__title">UI/UX Design</h3>
-                        <p class="services__description">Services that I work on and have years of experience.</p>
-                        <a href="#" class="button">Know More</a>
-                    </div>
-                    <div class="services__data">
-                        <i class='bx bx-laptop services__icon'></i>
-                        <h3 class="services__title">Web Development</h3>
-                        <p class="services__description">Services that I work on and have years of experience.</p>
-                        <a href="#" class="button">Know More</a>
-                    </div>
-                    <div class="services__data">
-                        <i class='bx bx-pen services__icon'></i>
-                        <h3 class="services__title">Graphics/Motion Graphics</h3>
-                        <p class="services__description">Services that I work on and have years of experience.</p>
-                        <a href="#" class="button">Know More</a>
-                    </div>
-                </div>
-            </section>
-            
-            <!--===== PROJECT IN MIND =====-->
-            <section class="project section bd-container">
-                <div class="project__container bd-grid">
-                    <div class="project__data">
-                        <i class='bx bx-chat project__icon' ></i>
+      <!--===== SERVICES =====-->
+      <section class="services section bd-container" id="services">
+        <span class="section-subtitile">What I offer</span>
+        <h2 class="section-title">Services</h2>
+        <div class="services__container bd-grid">
+          <div class="services__data">
+            <i class="bx bx-palette services__icon"></i>
+            <h3 class="services__title">UI/UX Design</h3>
+            <p class="services__description">
+              Services that I work on and have years of experience.
+            </p>
+            <a href="#" class="button">Know More</a>
+          </div>
+          <div class="services__data">
+            <i class="bx bx-laptop services__icon"></i>
+            <h3 class="services__title">Web Development</h3>
+            <p class="services__description">
+              Services that I work on and have years of experience.
+            </p>
+            <a href="#" class="button">Know More</a>
+          </div>
+          <div class="services__data">
+            <i class="bx bx-pen services__icon"></i>
+            <h3 class="services__title">Graphics/Motion Graphics</h3>
+            <p class="services__description">
+              Services that I work on and have years of experience.
+            </p>
+            <a href="#" class="button">Know More</a>
+          </div>
+        </div>
+      </section>
 
-                        <div>
-                            <h2 class="project__title">Project in Mind</h2>
-                            <p class="project__description">Hire me to Carry out Projects</p>
-                        </div>
-                        <div>
-                            <a href="#" class="button button-white">Hire Me</a>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        
+      <!--===== PROJECT IN MIND =====-->
+      <section class="project section bd-container">
+        <div class="project__container bd-grid">
+          <div class="project__data">
+            <i class="bx bx-chat project__icon"></i>
 
-
-            <!--===== PORTFOLIO =====-->
-            <section class="portfolio section bd-container" id="portfolio">
-                <span class="section-subtitile">My recent works</span>
-                <h2 class="section-title">Portfolio</h2>
-                <div class="portfolio__nav">
-                    <span class="portfolio__item active-portfolio" data-filter="all">All</span>
-                    <span class="portfolio__item" data-filter=".ux">UI/UX</span>
-                    <span class="portfolio__item" data-filter=".web">Web</span>
-                    <span class="portfolio__item" data-filter=".app">App</span>
-                </div>
-                <div class="portfolio__container bd-grid">
-                    <div class="portfolio__content mix web">
-                       <a href="https://magicfootwear.com.np/"><img src="img/magic.jpg" alt="" class="portfolio__img"></a>
-                       <div class="portfolio__data">
-                           <span class="portfolio__subtitle">Web Development</span>
-                           <a href="https://magicfootwear.com.np/"><h2 class="portfolio__title">E-Commerce Website for MagicFootwear</h2></a>
-                           <a href="https://magicfootwear.com.np/" class="button button-link">View Details</a>
-                       </div>
-                    </div>
-
-                    <div class="portfolio__content mix web">
-                       <a href="#"><img src="img/work2.jpg" alt="" class="portfolio__img"></a>
-                       <div class="portfolio__data">
-                           <span class="portfolio__subtitle">Web Development</span>
-                           <a href="#"><h2 class="portfolio__title">New Portfolio of Work Done for a client</h2></a>
-                           <a href="#" class="button button-link">View Details</a>
-                       </div>
-                    </div>
-
-                    <div class="portfolio__content mix ux">
-                       <a href="#"><img src="img/work3.jpg" alt="" class="portfolio__img"></a>
-                       <div class="portfolio__data">
-                           <span class="portfolio__subtitle">UI/IX Design</span>
-                           <a href="#"><h2 class="portfolio__title">New Portfolio of Work Done for a client</h2></a>
-                           <a href="#" class="button button-link">View Details</a>
-                       </div>
-                    </div>
-
-                    <div class="portfolio__content mix ux">
-                       <a href="#"><img src="img/work4.jpg" alt="" class="portfolio__img"></a>
-                       <div class="portfolio__data">
-                           <span class="portfolio__subtitle">UI/UX Design</span>
-                           <a href="#"><h2 class="portfolio__title">New Portfolio of Work Done for a client</h2></a>
-                           <a href="#" class="button button-link">View Details</a>
-                       </div>
-                    </div>
-
-                    <div class="portfolio__content mix app">
-                       <a href="#"><img src="img/work5.jpg" alt="" class="portfolio__img"></a>
-                       <div class="portfolio__data">
-                           <span class="portfolio__subtitle">App Development</span>
-                           <a href="#"><h2 class="portfolio__title">New Portfolio of Work Done for a client</h2></a>
-                           <a href="#" class="button button-link">View Details</a>
-                       </div>
-                    </div>
-
-                    <div class="portfolio__content mix app">
-                       <a href="#"><img src="img/work6.jpg" alt="" class="portfolio__img"></a>
-                       <div class="portfolio__data">
-                           <span class="portfolio__subtitle">App Development</span>
-                           <a href="#"><h2 class="portfolio__title">New Portfolio of Work Done for a client</h2></a>
-                           <a href="#" class="button button-link">View Details</a>
-                       </div>
-                    </div>
-                </div>
-            </section>
-
-            <!--===== TESTIMONIAL =====-->
-            
-
-            <!--===== CONTACTME =====-->
-            <section class="contact section bd-container" id="contact">
-                <span class="section-subtitile">For Projects</span>
-                <h2 class="section-title">Contact Me</h2>
-
-                <div class="contact__container bd-grid">
-                    <div class="contact__content bd-grid">
-                        <div class="contact__box">
-                            <i class='bx bx-home contact__icon' ></i>
-                            <h3 class="contact__title">Location</h3>
-                            <span class="contact__description">Kathmandu, Nepal</span>
-                        </div>
-
-                        
-
-                        <div class="contact__box">
-                            <i class='bx bx-envelope contact__icon' ></i>
-                            <h3 class="contact__title">Gmail</h3>
-                            <span class="contact__description">abhishekbarnwal37@gmail.com</span>
-                        </div>
-
-                        <div class="contact__box">
-                            <i class='bx bx-chat contact__icon' ></i>
-                            <h3 class="contact__title">Chat</h3>
-                            <div>
-                                <a href="#" class="contact__social"></a> <i class='bx bxl-messenger contact__icon' ></i>
-                                <a href="#" class="contact__social"></a> <i class='bx bxl-instagram contact__icon' ></i>
-                            </div>
-                        </div>
-                    </div>
-
-                    <form action="" class="contact__form">
-                        <div class="contact__inputs">
-                            <input type="text" placeholder="Name"class="contact__input">
-                            <input type="email" placeholder="Email"class="contact__input">
-                         </div>
-                        <div class="contact__inputs">
-                            <input type="text" placeholder="Project"class="contact__input">
-                            <input type="text" placeholder="Number"class="contact__input">
-                         </div>
-
-                         <textarea name="" id="" cols="0" rows="7" placeholder= "Message"class="contact__input"></textarea>
-
-                         <input type="submit" Value="Send Message" class="button contact__button">
-                    </form>
-                </div>
-            </section>    
-        </main>
-
-        <!--===== FOOTER =====-->
-        <footer class="footer">
-            <div class="footer__container bd-container">
-                <h1 class="footer__title">Abhishek Barnawal</h1>
-                <p class="footer__description">I am Abhishek Barnawal. This is my personal Portfolio Website</p>
-
-                <div class="footer__social">
-                    <a href="https://www.linkedin.com/in/abhishek-barnawal/" class="footer__link"><i class='bx bxl-linkedin' ></i></a>
-                    <a href="https://www.behance.net/abhishekbarnwal" class="footer__link"><i class='bx bxl-behance' ></i></a>
-                    <a href="https://dribbble.com/abhishek_barnawal" class="footer__link"><i class='bx bxl-dribbble'></i></a>
-                </div>
-                <p class="footer__copy">&#169; 2020 Abhishek Barnawal. All Rights Reserved</p>
+            <div>
+              <h2 class="project__title">Project in Mind</h2>
+              <p class="project__description">Hire me to Carry out Projects</p>
             </div>
-        </footer>
-        
-        <!-- ===== MIXITUP FILTER ===== -->
-        <script src="js/mixitup.min.js"></script>
-        
-        <!-- ===== SWIPER JS ===== -->
-        <!-- <script src=""></script> -->
-        
-        <!-- ===== GSAP ===== -->
-        <script src="js/gsap.min.js"></script>
-        
-        <!--===== MAIN JS =====-->
-        <script src="js/main.js"></script>
-    </body>
+            <div>
+              <a href="#" class="button button-white">Hire Me</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--===== PORTFOLIO =====-->
+      <section class="portfolio section bd-container" id="portfolio">
+        <span class="section-subtitile">My recent works</span>
+        <h2 class="section-title">Portfolio</h2>
+        <div class="portfolio__nav">
+          <span class="portfolio__item active-portfolio" data-filter="all"
+            >All</span
+          >
+          <span class="portfolio__item" data-filter=".ux">UI/UX</span>
+          <span class="portfolio__item" data-filter=".web">Web</span>
+          <span class="portfolio__item" data-filter=".app">App</span>
+        </div>
+        <div class="portfolio__container bd-grid">
+          <div class="portfolio__content mix web">
+            <a href="https://magicfootwear.com.np/"
+              ><img src="img/magic.jpg" alt="" class="portfolio__img"
+            /></a>
+            <div class="portfolio__data">
+              <span class="portfolio__subtitle">Web Development</span>
+              <a href="https://magicfootwear.com.np/"
+                ><h2 class="portfolio__title">
+                  E-Commerce Website for MagicFootwear
+                </h2></a
+              >
+              <a href="https://magicfootwear.com.np/" class="button button-link"
+                >View Details</a
+              >
+            </div>
+          </div>
+
+          <div class="portfolio__content mix web">
+            <a href="#"
+              ><img src="img/work2.jpg" alt="" class="portfolio__img"
+            /></a>
+            <div class="portfolio__data">
+              <span class="portfolio__subtitle">Web Development</span>
+              <a href="#"
+                ><h2 class="portfolio__title">
+                  New Portfolio of Work Done for a client
+                </h2></a
+              >
+              <a href="#" class="button button-link">View Details</a>
+            </div>
+          </div>
+
+          <div class="portfolio__content mix ux">
+            <a href="#"
+              ><img src="img/work3.jpg" alt="" class="portfolio__img"
+            /></a>
+            <div class="portfolio__data">
+              <span class="portfolio__subtitle">UI/IX Design</span>
+              <a href="#"
+                ><h2 class="portfolio__title">
+                  New Portfolio of Work Done for a client
+                </h2></a
+              >
+              <a href="#" class="button button-link">View Details</a>
+            </div>
+          </div>
+
+          <div class="portfolio__content mix ux">
+            <a href="#"
+              ><img src="img/work4.jpg" alt="" class="portfolio__img"
+            /></a>
+            <div class="portfolio__data">
+              <span class="portfolio__subtitle">UI/UX Design</span>
+              <a href="#"
+                ><h2 class="portfolio__title">
+                  New Portfolio of Work Done for a client
+                </h2></a
+              >
+              <a href="#" class="button button-link">View Details</a>
+            </div>
+          </div>
+
+          <div class="portfolio__content mix app">
+            <a href="#"
+              ><img src="img/work5.jpg" alt="" class="portfolio__img"
+            /></a>
+            <div class="portfolio__data">
+              <span class="portfolio__subtitle">App Development</span>
+              <a href="#"
+                ><h2 class="portfolio__title">
+                  New Portfolio of Work Done for a client
+                </h2></a
+              >
+              <a href="#" class="button button-link">View Details</a>
+            </div>
+          </div>
+
+          <div class="portfolio__content mix app">
+            <a href="#"
+              ><img src="img/work6.jpg" alt="" class="portfolio__img"
+            /></a>
+            <div class="portfolio__data">
+              <span class="portfolio__subtitle">App Development</span>
+              <a href="#"
+                ><h2 class="portfolio__title">
+                  New Portfolio of Work Done for a client
+                </h2></a
+              >
+              <a href="#" class="button button-link">View Details</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--===== TESTIMONIAL =====-->
+
+      <!--===== CONTACTME =====-->
+      <section class="contact section bd-container" id="contact">
+        <span class="section-subtitile">For Projects</span>
+        <h2 class="section-title">Contact Me</h2>
+
+        <div class="contact__container bd-grid">
+          <div class="contact__content bd-grid">
+            <div class="contact__box">
+              <i class="bx bx-home contact__icon"></i>
+              <h3 class="contact__title">Location</h3>
+              <span class="contact__description">Kathmandu, Nepal</span>
+            </div>
+
+            <div class="contact__box">
+              <i class="bx bx-envelope contact__icon"></i>
+              <h3 class="contact__title">Gmail</h3>
+              <span class="contact__description"
+                >abhishekbarnwal37@gmail.com</span
+              >
+            </div>
+
+            <div class="contact__box">
+              <i class="bx bx-chat contact__icon"></i>
+              <h3 class="contact__title">Chat</h3>
+              <div>
+                <a href="#" class="contact__social"></a>
+                <i class="bx bxl-messenger contact__icon"></i>
+                <a href="#" class="contact__social"></a>
+                <i class="bx bxl-instagram contact__icon"></i>
+              </div>
+            </div>
+          </div>
+
+          <form action="" class="contact__form">
+            <div class="contact__inputs">
+              <input type="text" placeholder="Name" class="contact__input" />
+              <input type="email" placeholder="Email" class="contact__input" />
+            </div>
+            <div class="contact__inputs">
+              <input type="text" placeholder="Project" class="contact__input" />
+              <input type="text" placeholder="Number" class="contact__input" />
+            </div>
+
+            <textarea
+              name=""
+              id=""
+              cols="0"
+              rows="7"
+              placeholder="Message"
+              class="contact__input"
+            ></textarea>
+
+            <input
+              type="submit"
+              value="Send Message"
+              class="button contact__button"
+            />
+          </form>
+        </div>
+      </section>
+    </div>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+      <div class="footer__container bd-container">
+        <h1 class="footer__title">Abhishek Barnawal</h1>
+        <p class="footer__description">
+          I am Abhishek Barnawal. This is my personal Portfolio Website
+        </p>
+
+        <div class="footer__social">
+          <a
+            href="https://www.linkedin.com/in/abhishek-barnawal/"
+            class="footer__link"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a href="https://www.behance.net/abhishekbarnwal" class="footer__link"
+            ><i class="bx bxl-behance"></i
+          ></a>
+          <a href="https://dribbble.com/abhishek_barnawal" class="footer__link"
+            ><i class="bx bxl-dribbble"></i
+          ></a>
+        </div>
+        <p class="footer__copy">
+          &#169; 2020 Abhishek Barnawal. All Rights Reserved
+        </p>
+      </div>
+    </footer>
+
+    <!-- ===== MIXITUP FILTER ===== -->
+    <script src="js/mixitup.min.js"></script>
+
+    <!-- ===== SWIPER JS ===== -->
+    <!-- <script src=""></script> -->
+
+    <!-- ===== GSAP ===== -->
+    <script src="js/gsap.min.js"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="js/main.js"></script>
+  </body>
 </html>
