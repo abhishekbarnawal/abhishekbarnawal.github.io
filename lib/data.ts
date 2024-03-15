@@ -35,35 +35,27 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated",
-    location: "Ludhiana, India",
-    description:
-      "I graduated with Btech CSE. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2018",
-  },
-  {
     title: "Front-End Engineer",
     location: "Web House Nepal, Kathmandu, NP",
     description:
-      "I worked as a front-end engineer for 2 years here. I also upskilled to the UI/UX Designing.",
+      "I worked as a front-end engineer for 2 years here. I also upskilled to the UI/UX Designing and build websites for various sectors",
       icon: React.createElement(CgWorkAlt),
     date: "2018 - 2021",
   },
   {
-    title: "Lead UI/UX Designer",
+    title: "UI/UX Developer",
     location: "AITC International, Kathmandu, NP",
     description:
-      "I worked as a UI/UX Designer for 1 year here. I learned animations and game designing here.",
+      "I worked as a UI/UX Developer for 1 year here.I Developed Several Web Applications in MERN Stack and learned CSS and JS animations.",
     icon: React.createElement(CgWorkAlt),
     date: "2021 - 2022",
   },
   {
-    title: "UI/UX Designer",
+    title: "Senior Frontend Developer",
     location: "BeyondId, Kathmandu, NP",
     description:
-      "I'm now a UI/UX developer. I do UI/UX Designing and React Development. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
+      "I'm working as a Senior Frontend developer. I provide technical leadership and guidance to our frontend team, leverage new technologies to provide amazing user experience. I work closely with stakeholders, clients, PMs and development team to ensure great product experience and solutions. I work for sectors such as: healthcare, educational and various cyber security companies. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+    icon: React.createElement(CgWorkAlt),
     date: "2022 - present",
   },
 ] as const;
@@ -95,17 +87,18 @@ export const projectsData = [
 export const skillsData = [
   "HTML",
   "CSS",
-  "UI/UX Design",
-  "JavaScript",
-  "TypeScript",
   "React",
+  "Redux",
   "Next.js",
   "Node.js",
   "Git",
+  "IAM",
   "Tailwind",
+  "UI/UX Design",
+  "JavaScript",
+  "TypeScript",
   "Prisma",
   "MongoDB",
-  "Redux",
   "GraphQL",
   "Express",
   "PostgreSQL",

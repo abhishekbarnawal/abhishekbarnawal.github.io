@@ -21,10 +21,10 @@ export default function About() {
       <p className="mb-3">
         After graduating with Btech degree in{" "}
         <span className="font-medium">Computer Science Engineering</span>, I decided to pursue my
-        passion for frontend development. I enrolled in a coding bootcamp and learned{" "}
+        passion for Frontend Development. I enrolled in a coding bootcamp and learned{" "}
         <span className="font-medium">UI/UX Design & Frontend Development</span>.{" "}
         <span className="font-medium">I am an Okta Certified Professional</span>, and <span className="font-medium">Auth0 Specialist.</span>{" "}
-        <span className="italic">My favorite part of designing</span> design thinking and problem-solving. I <span className="underline">love</span> the
+        <span className="italic">My favorite part of work is</span> design thinking and problem-solving. I <span className="underline">love</span> the
         feeling of finally figuring out a solution to a problem. My tech stacks
         are{" "}
         <span className="font-medium">
