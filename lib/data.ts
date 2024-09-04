@@ -35,28 +35,28 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Front-End Engineer",
+    title: "UI/UX Designer",
     location: "Web House Nepal, Kathmandu, NP",
     description:
-      "I worked as a front-end engineer for 2 years here. I also upskilled to the UI/UX Designing and build websites for various sectors",
+      "I worked as a UI/UX Designer for 2 years here. I also upskilled to the Frontend development and build websites for various B2C sectors",
       icon: React.createElement(CgWorkAlt),
     date: "2018 - 2021",
   },
   {
-    title: "UI/UX Developer",
+    title: "Lead UI/UX Designer",
     location: "AITC International, Kathmandu, NP",
     description:
-      "I worked as a UI/UX Developer for 1 year here.I Developed Several Web Applications in MERN Stack and learned CSS and JS animations.",
+      "I worked as a Lead UI/UX Designer for 1 year here.I designed Several Web Applications in MERN Stack and learned CSS and JS animations.",
     icon: React.createElement(CgWorkAlt),
     date: "2021 - 2022",
   },
   {
-    title: "Senior Frontend Developer",
+    title: "Senior UI/UX Designer",
     location: "BeyondId, Kathmandu, NP",
     description:
-      "I'm working as a Senior Frontend developer. I provide technical leadership and guidance to our frontend team, leverage new technologies to provide amazing user experience. I work closely with stakeholders, clients, PMs and development team to ensure great product experience and solutions. I work for sectors such as: healthcare, educational and various cyber security companies. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "I'm working as a Senior UI/UX Designer. I provide technical leadership and guidance to our frontend team, leverage new technologies to provide amazing user experience. I work closely with stakeholders, clients, PMs and development team to ensure great product experience and solutions. I work for sectors such as: healthcare, educational, retail & enterprise solutions. My stack includes Next.js, Tailwind CSS, Google Material Design. I'm open to full-time opportunities.",
     icon: React.createElement(CgWorkAlt),
-    date: "2022 - present",
+    date: "Feb, 2022 - present",
   },
 ] as const;
 
