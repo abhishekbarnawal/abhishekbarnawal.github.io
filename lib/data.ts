@@ -35,28 +35,28 @@ export const links = [
 
 export const experiencesData = [
   {
+    title: "Senior UI/UX Designer",
+    location: "BeyondId, Kathmandu, NP",
+    description:
+    "I'm working as a Senior UI/UX Designer. I provide technical leadership and guidance to our frontend team, leverage new technologies to provide amazing user experience. I work closely with stakeholders, clients, PMs and development team to ensure great product experience and solutions. I work for sectors such as: healthcare, educational, retail & enterprise solutions. My stack includes Next.js, Tailwind CSS, Google Material Design. I'm open to full-time opportunities.",
+    icon: React.createElement(CgWorkAlt),
+    date: "Feb, 2022 - present",
+  },
+  {
+    title: "Lead UI/UX Designer",
+    location: "AITC International, Kathmandu, NP",
+    description:
+    "I worked as a Lead UI/UX Designer for 1 year here.I designed Several Web Applications in MERN Stack and learned CSS and JS animations.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2021 - 2022",
+  },
+  {
     title: "UI/UX Designer",
     location: "Web House Nepal, Kathmandu, NP",
     description:
       "I worked as a UI/UX Designer for 2 years here. I also upskilled to the Frontend development and build websites for various B2C sectors",
       icon: React.createElement(CgWorkAlt),
     date: "2018 - 2021",
-  },
-  {
-    title: "Lead UI/UX Designer",
-    location: "AITC International, Kathmandu, NP",
-    description:
-      "I worked as a Lead UI/UX Designer for 1 year here.I designed Several Web Applications in MERN Stack and learned CSS and JS animations.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2021 - 2022",
-  },
-  {
-    title: "Senior UI/UX Designer",
-    location: "BeyondId, Kathmandu, NP",
-    description:
-      "I'm working as a Senior UI/UX Designer. I provide technical leadership and guidance to our frontend team, leverage new technologies to provide amazing user experience. I work closely with stakeholders, clients, PMs and development team to ensure great product experience and solutions. I work for sectors such as: healthcare, educational, retail & enterprise solutions. My stack includes Next.js, Tailwind CSS, Google Material Design. I'm open to full-time opportunities.",
-    icon: React.createElement(CgWorkAlt),
-    date: "Feb, 2022 - present",
   },
 ] as const;
 
@@ -85,22 +85,15 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
-  "React",
-  "Redux",
-  "Next.js",
-  "Node.js",
-  "Git",
-  "IAM",
-  "Tailwind",
-  "UI/UX Design",
-  "JavaScript",
-  "TypeScript",
-  "Prisma",
-  "MongoDB",
-  "GraphQL",
-  "Express",
-  "PostgreSQL",
-  "Framer Motion",
+  "Human-Centered Design(HCD)",
+  "User Experience Design",
+  "Product Design",
+  "Visual Design",
+  "High Fidelity Design & Prototype",
+  "Product Strategy",
+  "Collaboration and Communication",
+  "Usability Testing and Iteration",
+  "Design Systems",
+  "Technical Proficiency(HTML, CSS, Typescript)",
+  "Leadership and Mentorship",
 ] as const;

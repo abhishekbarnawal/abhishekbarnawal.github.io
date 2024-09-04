@@ -23,19 +23,19 @@ export default function About() {
         <span className="font-medium">Computer Science Engineering</span>, I decided to pursue my
         passion for UI/UX Design. I learned{" "}
         <span className="font-medium">UI/UX Design & Frontend Development</span>.{" "}
-        <span className="font-medium">I am a Google Certified UX designer, an Okta Certified Professional</span>, and <span className="font-medium">Auth0 Specialist.</span>{" "}
-        <span className="italic">My favorite part of work is</span> design thinking and problem-solving. I <span className="underline">love</span> the
+        <span className="font-medium">I am a Google Certified UX designer, an Okta Certified Professional</span> and <span className="font-medium">Auth0 Specialist.</span>{" "}
+        <span className="italic">My favorite part of work is</span> design thinking, user research and problem solving. I <span className="underline">love</span> the
         feeling of finally figuring out a solution to a problem. My tech stacks
         are{" "}
         <span className="font-medium">
-          React, Next.js, Node.js.
+          React, Next.js, Node.js
         </span>
-        . I am also familiar with TypeScript. I am always looking to
+        . I am always looking to
         learn new technologies.
       </p>
 
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy travelling,
+        <span className="italic">When I'm not designing</span>, I enjoy travelling,
         watching movies, and playing with my dog. I also enjoy{" "}
         <span className="font-medium">learning new things</span>. I am currently
         studying about{" "}
