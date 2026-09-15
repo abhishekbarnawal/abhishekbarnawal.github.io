@@ -11,7 +11,7 @@ export default function Project({
   title,
   description,
   tags,
-  imageUrl,
+  image,
 }: ProjectProps) {
   const ref = useRef<HTMLDivElement>(null);
 
@@ -150,7 +150,7 @@ export default function Project({
             "
           >
             <Image
-              src={imageUrl}
+              src={image}
               alt={`${title} project preview`}
               width={900}
               height={650}
